@@ -25,7 +25,7 @@ app.get('/', (req, res) => {
           /* The rest of your CSS rules... */
 
           body {
-            background: linear-gradient(180deg, rgba(14, 27, 49, 0) -157.5%, rgba(231, 231, 231, 0.25) 98.75%), #000000;
+            background-color: #10203A;
             color: #fff;
             font-family: Sora, Arial, sans-serif;
             text-align: center;
