@@ -14,16 +14,18 @@ app.get('/', (req, res) => {
             font-weight: 600;
             font-display: swap;
           }
-          @font-face {
-            font-family: "Sora";
-            src: url("https://example.com/fonts/sora/Sora-Bold.ttf");
-            font-style: normal;
-            font-weight: 700;
-            font-display: swap;
+          /* The rest of your @font-face rules... */
+
+          .btn-primary {
+            background-color: green;
+            color: white;
+            border-radius: 0.25rem;
+            height: 2.25rem;
           }
-          /* Rest of your CSS here... */
+          /* The rest of your CSS rules... */
+
           body {
-            background-color: #1a1a1a;
+            background: linear-gradient(180deg, rgba(14, 27, 49, 0) -157.5%, rgba(231, 231, 231, 0.25) 98.75%), #000000;
             color: #fff;
             font-family: Sora, Arial, sans-serif;
             text-align: center;
